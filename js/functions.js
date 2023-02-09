@@ -399,7 +399,7 @@ jQuery(function($) {
     $("#services-slider").owlCarousel({
         autoplay: true,
         autoplayTimeout: 6000,
-        autoplayHoverPause: true,
+        autoplayHoverPause: false,
         smartSpeed: 1200,
         loop: true,
         nav: false,
