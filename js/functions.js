@@ -398,7 +398,7 @@ jQuery(function($) {
     /*Services Box Slider*/
     $("#services-slider").owlCarousel({
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 6000,
         autoplayHoverPause: true,
         smartSpeed: 1200,
         loop: true,
