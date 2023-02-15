@@ -44,7 +44,34 @@ body {
 }
 
 
+#loading-screen {
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    z-index: 9999;
+  }
+  
+  #loading-screen.fade-out {
+    opacity: 0;
+  }
+  
+  #loading-screen img {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #loading-screen.fade-in img {
+    opacity: 1;
+  }
 
 body.full-page {
     overflow: hidden !important;
