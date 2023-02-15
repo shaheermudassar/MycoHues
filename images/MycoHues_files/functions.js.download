@@ -1005,7 +1005,19 @@ jQuery(function($) {
 
 
 });
+setTimeout(function() {
 
+    var loadingScreen = document.getElementById("loading-screen");
+    loadingScreen.classList.add("fade-out");
+    setTimeout(function() {
+      loadingScreen.style.display = "none";
+    }, 1000);
+  }, 2000);
+  
+  setTimeout(function() {
+    var loadingScreen = document.getElementById("loading-screen");
+    loadingScreen.classList.add("fade-in");
+  }, 100);
 /*
 jQuery(function () {
    jQuery("#bgndVideo").vimeo_player();
