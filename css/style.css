@@ -72,7 +72,30 @@ body {
   #loading-screen.fade-in img {
     opacity: 1;
   }
+/* Styles for small screens */
 
+@media (max-width: 767px) {
+    #loading-screen img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Styles for medium screens */
+  @media (min-width: 768px) and (max-width: 991px) {
+    #loading-screen img {
+      width: 75%;
+      height: auto;
+    }
+  }
+  
+  /* Styles for large screens */
+  @media (min-width: 992px) {
+    #loading-screen img {
+      width: 50%;
+      height: auto;
+    }
+  }
 body.full-page {
     overflow: hidden !important;
 }
