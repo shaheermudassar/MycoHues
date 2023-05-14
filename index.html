@@ -15,6 +15,24 @@
 
 <body data-bs-spy="scroll" data-bs-target="#xenav">
 
+    <!--image loader-->
+    <div id="loading-screen">
+
+        <video width="1400" class="rev-slidebg" data-no-retina autoplay loop muted>
+            <source src="images/Orange Modern Colorful Minimalistic Organic Blob YouTube Intro.mp4" type="video/mp4">
+          </video>
+      </div>
+    <!--image loader ends-->
+
+    <style>
+        @media only screen and (max-width: 600px) {
+          /* Replace the video with a different one for mobile devices */
+          #loading-screen video {
+            display: none;
+          }
+        }
+      </style>
+
     <!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">
@@ -40,48 +58,11 @@
     </div>
     <!--PreLoader Ends-->
 
-
-
-
-    
-    <!--image loader-->
-    <div id="loading-screen">
-
-        <video width="1400" class="rev-slidebg" data-no-retina autoplay loop muted>
-            <source src="images/Orange Modern Colorful Minimalistic Organic Blob YouTube Intro.mp4" type="video/mp4">
-          </video>
-      </div>
-    <!--image loader ends-->
-
-    <style>
-        @media only screen and (max-width: 600px) {
-          /* Replace the video with a different one for mobile devices */
-          #loading-screen video {
-            display: none;
-          }
-          #loading-screen::before {
-            content: '';
-            display: block;
-            height: 100%;
-            background-image: url(images/mobile\ loader.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: -1;
-          }
-        }
-      </style>
-
     <!-- header -->
     <header class="site-header transparent-sidemenu">
         <nav class="navbar navbar-expand-lg transparent-bg static-nav">
             <div class="container">
-                <a class="navbar-brand" href="index-modern.html">
+                <a class="navbar-brand" href="index.html">
          <img id="logo" src="images/MycoHues Logo.png" alt="logo">
          </a>
                 <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#xenav">
@@ -331,13 +312,13 @@
                     <span>We have an excellent story</span>
                     <h2 class="fontregular bottom20 darkcolor">Watch Our Video</h2>
                     <p>We are proud to present a new video on our website that provides valuable information about our fungal pigments product. This informative video explores the unique features of our fungal pigments, including the natural and sustainable sources they are derived from, and the vibrant color options they provide. The video offers a comprehensive look at the many benefits of using fungal pigments as a natural food coloring option, including the eco-friendly and safe qualities they bring to the table. Whether you're new to fungal pigments or looking to learn more, this video is a must-watch. Be sure to check it out on our website today!</p>
-                    
+                    <br><p>If video the don't start, click <a style="color: orangered ; text-decoration: underline;" href="https://www.youtube.com/watch?v=Mhv6tzCUjB0">here</a></p>
                 </div>
             </div>
             <div class="col-md-5 col-sm-5 padding_bottom wow fadeInRight" data-wow-delay="350ms">
                 <div class="image hover-effect">
-                    <img alt="video img" src="images/video-click.jpg">
-                    <a data-fancybox href="https://www.youtube.com/watch?v=GhvD7NtUT-Q&autoplay=1&rel=0&controls=1&showinfo=0" class="button-play fontmedium"><i class="fa fa-play"></i></a>
+                    <img alt="video img" src="images/MycoHues Logo.png">
+                    <a data-fancybox href="https://www.youtube.com/watch?v=Mhv6tzCUjB0" class="button-play fontmedium"><i class="fa fa-play"></i></a>
                 </div>
             </div>
         </div>
@@ -458,54 +439,62 @@
             </div>
             <div id="flat-gallery" class="cbp">
                 <div class="cbp-item web logo">
-                    <img src="images/doll.jpg" alt="">
+                    <img src="images/Wooden flask.jpg" alt="">
                     <div class="overlay center-block whitecolor">
-                        <a class="plus" data-fancybox="gallery" href="images/doll.jpg"></a>
+                        <a class="plus" data-fancybox="gallery" href="images/Wooden flask.jpg"></a>
                         <h4 class="top30">Sample</h4>
-                        <p>Doll dress</p>
+                        <p>Decoration 1</p>
                     </div>
                 </div>
                 <div class="cbp-item graphic print">
-                    <img src="images/Flowers.jpg" alt="">
+                    <img src="images/black flask.jpg" alt="">
                     <div class="overlay center-block whitecolor">
-                        <a class="plus" data-fancybox="gallery" href="images/Flowers.jpg"></a>
+                        <a class="plus" data-fancybox="gallery" href="black flask.jpg"></a>
                         <h4 class="top30">Sample</h4>
                         <p>Flowers</p>
                     </div>
                 </div>
                 <div class="cbp-item logo graphic">
-                    <img src="images/Cloth.jpg" alt="">
+                    <img src="images/decoration1.jpg" alt="">
                     <div class="overlay center-block whitecolor">
-                        <a class="plus" data-fancybox="gallery" href="images/Cloth.jpg"></a>
+                        <a class="plus" data-fancybox="gallery" href="images/decoration1.jpg"></a>
                         <h4 class="top30">Sample</h4>
                         <p>Cloth</p>
                     </div>
                 </div>
                 <div class="cbp-item print">
-                    <img src="images/gallery-flat4.jpg" alt="">
+                    <img src="images/All in one 1.jpg" alt="">
                     <div class="overlay center-block whitecolor">
-                        <a class="plus" data-fancybox="gallery" href="images/gallery-flat4.jpg"></a>
+                        <a class="plus" data-fancybox="gallery" href="images/All in one 1.jpg"></a>
                         <h4 class="top30">Sample</h4>
                         <p>details</p>
                     </div>
                 </div>
                 <div class="cbp-item logo">
-                    <img src="images/gallery-flat5.jpg" alt="">
+                    <img src="images/flowers.jpg" alt="">
                     <div class="overlay center-block whitecolor">
-                        <a class="plus" data-fancybox="gallery" href="images/gallery-flat5.jpg"></a>
+                        <a class="plus" data-fancybox="gallery" href="images/flowers.jpg"></a>
                         <h4 class="top30">Sample</h4>
                         <p>details</p>
                     </div>
                 </div>
                 <div class="cbp-item web print graphic">
-                    <img src="images/gallery-flat6.jpg" alt="">
+                    <img src="images/All in one 2.jpg" alt="">
                     <div class="overlay center-block whitecolor">
-                        <a class="plus" data-fancybox="gallery" href="images/gallery-flat6.jpg"></a>
+                        <a class="plus" data-fancybox="gallery" href="images/All in one 2.jpg"></a>
                         <h4 class="top30">Sample</h4>
                         <p>details</p>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-sm-12 text-center">
+                    <div class="heading-title wow fadeInUp" data-wow-delay="300ms"><br><br>
+                        <p class="heading_space">If you are curious to buy any of our sample to check our pigment quality, <a href="samples.html" target="_blank" class="button btnsecondary wow fadeInUp" data-wow-delay="450ms" style="color: aliceblue;">Click here</a></p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </section>
     <!--Gallery ends -->
@@ -532,11 +521,13 @@
                         <div class="item">
                             <div class="team-box single">
                                 <div class="image">
-                                    <img src="images/Unknown_person.jpg" alt="">
+                                    <img src="images/dr shumaila.jpg" alt="" height="370" width="100">
                                 </div>
                                 <div class="team-content gradient_bg whitecolor">
-                                    <h3>Name.</h3>
-                                    <p class="bottom40">Title, MycoHues Company</p>
+                                    <h3>Dr. Shomaila</h3>
+                                    <p class="bottom40"> <b> Founder</b>, Mycologist
+                                        Assistant Professor
+                                        Lahore Garrison University</p>
                                     
                                 </div>
                             </div>
@@ -544,25 +535,17 @@
                         <div class="item">
                             <div class="team-box single">
                                 <div class="image">
-                                    <img src="images/Unknown_person.jpg" alt="">
+                                    <img src="images/dr imran afzal.jpg" alt="" >
                                 </div>
                                 <div class="team-content gradient_bg_default whitecolor">
-                                    <h3>Name</h3>
-                                    <p class="bottom40">Title, MycoHues Company</p>
+                                    <h3>Dr. Imran Afzal</h3>
+                                    <p class="bottom40"><b>Co-Founder</b>, Biotechnologist
+                                        Associate Professor
+                                        Lahore Garrison University</p>
                                     
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="team-box single">
-                                <div class="image">
-                                    <img src="images/Unknown_person.jpg" alt="">
-                                </div>
-                                <div class="team-content gradient_bg whitecolor">
-                                    <h3>Name</h3>
-                                    <p class="bottom40">Title, MycoHues Company</p>
-                                    
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -634,8 +617,6 @@
 
 
 
-
-
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
@@ -676,6 +657,8 @@
 
     <!--WOw animations-->
     <script src="js/wow.min.js"></script>
+
+    
 
     <!--Revolution SLider-->
     <script src="js/revolution/jquery.themepunch.tools.min.js"></script>
